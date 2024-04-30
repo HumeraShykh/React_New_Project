@@ -12,7 +12,7 @@ function Product(props ){
     <h4>Price: {props.price}</h4>
     <h4>Price wih 50% discount: {props.price/2}</h4>
     <h5>Features:{props.features}</h5>
-    {/* <h5>Features:{props.features2.a}</h5> */}
+    <h5>Features:{props.features2.a}</h5>
 
 
         
