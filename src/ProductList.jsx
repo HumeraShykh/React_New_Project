@@ -1,6 +1,6 @@
 import Product from "./Product.jsx";
 function ProductList(){
-    let options = ["Durable","Reliable","Fast"];
+    let options = ["Durable","Reliable","Fast"]
     return (
     <>
     <Product title="Phone" price={30000} features={options}/>

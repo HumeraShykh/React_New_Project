@@ -11,7 +11,7 @@ function Product(props ){
     <h2>{props.title}</h2>
     <h4>Price: {props.price}</h4>
     <h4>Price wih 50% discount: {props.price/2}</h4>
-    <h5>Features: {features}</h5>
+    <h5>Features:{props.features}</h5>
 
 
         
