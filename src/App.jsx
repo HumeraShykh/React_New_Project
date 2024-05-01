@@ -2,6 +2,8 @@ import "./App.css"
 import Button from "./button";
 import Sum from "./Sum";
 import ProductList from "./ProductList";
+import SpacingComponent from "./SpacingComponent";
+import SimpleProductList from "./SimpleProductList";
 
 //import { Button, Sum } from "./button";
 
@@ -21,16 +23,13 @@ function App() {
        <Sum /> 
       <Button />
       <ProductList />
-     
+      <SpacingComponent />
+      {/* <SimpleProductList /> */}
     </div>
   );
   
 }
 
 
- {/* <h1>Hey I'm a App Component</h1>
-      <p>Inside the app Component there is: </p> */}
-      {/* <Title /> */}
- {/* <ProductList />
-      <ProductList /> */}
+ 
 export default App;

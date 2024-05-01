@@ -1,12 +1,15 @@
 import Product from "./Product.jsx";
 function ProductList(){
+    //array
     let options = ["Durable","Reliable","Fast"]
-    let options2 = {a: "Time", b: "place"}
+    //object
+    let options2 = {a: "Selfie Stick", b: "Cute Cover"}
+    ///represent an array anotherway
+    let color = ["red","blue"]
     return (
     <>
-    <Product title="Phone" price={30000} features={options} features2={options2}/>
-    {/* <Product title="Laptop" price={80000}  />
-    <Product title="Pen" price={100} /> */}
+    <Product title="Phone" price={30000} features={options} Gift={options2} colors={color}/>
+    
     
     </>
     )
